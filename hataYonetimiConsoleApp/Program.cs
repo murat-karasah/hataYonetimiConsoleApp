@@ -25,7 +25,7 @@ namespace hataYonetimiConsoleApp
             //    Console.WriteLine("Hatalı format");
             //}
             //catch (Exception ex)
-            //{
+            //{  
             //    Console.WriteLine("Lütfen sayı giriniz...{0}",ex);
             //}
 
@@ -42,6 +42,10 @@ namespace hataYonetimiConsoleApp
             {
 
                 Console.WriteLine("Özel Hata MEsajı Devrede");            }
+            finally
+            {
+                Console.WriteLine("finally çalıştı");
+            }
         }
     }
 }
